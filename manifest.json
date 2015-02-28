@@ -1,0 +1,12 @@
+{
+    "name": "I'm A Belieber",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "content_scripts": [
+      {
+          "matches": ["http://*/*", "https://*/*"],
+          "js": ["belieb.js"],
+          "run_at": "document_idle"
+      }
+    ]
+}
